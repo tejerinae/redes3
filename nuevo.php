@@ -51,7 +51,7 @@
           location: latlng,
           radius: 500
         }, callback);
-      var marker = new google.maps.Marker({position:latlng,map:map,title:'title',draggable: true});
+      var marker = new google.maps.Marker({position:latlng,map:map,title:'title',draggable: false});
       google.maps.event.addListener(marker, 'dragend', function(){
         updatePosition(marker.getPosition());
       });
