@@ -2,16 +2,7 @@
 session_start();
 header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
-//include("config.php");
-//include("funciones.php");
-/*global $PHP_SELF;
-global $error;
-global $acc;
-global $xopc;*/
 global $opc;
-/*global $eleccion;
-global $id;
-global $flag;*/
 
 ?>
 <!DOCTYPE html>
